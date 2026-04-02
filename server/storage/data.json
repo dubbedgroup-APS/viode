@@ -1,0 +1,93 @@
+{
+  "users": [
+    {
+      "_id": "c5b7772f-bf8f-4131-80a1-d2dcec478b3b",
+      "createdAt": "2026-04-02T13:10:29.868Z",
+      "updatedAt": "2026-04-02T15:00:31.335Z",
+      "name": "ex",
+      "email": "appua26145@gmail.com",
+      "password": "$2a$10$EWL1icGJl7qN8y2Ufeu.Iu2EMQ1i7SXR370CkAKNwBs2OlrKoSCNS",
+      "googleId": "115964557524057589793",
+      "authProvider": "google",
+      "avatar": "https://lh3.googleusercontent.com/a/ACg8ocI1NTZ7wySuH3A-D5TFJz7S-j7YH0jZw3Jde_WueRtFuMN9Kg=s96-c",
+      "history": [
+        {
+          "videoId": "46b0a10b-8350-4c8c-ae6c-179377d3eb14",
+          "watchedAt": "2026-04-02T14:30:52.751Z"
+        }
+      ]
+    },
+    {
+      "_id": "218e4dc2-0224-40d8-8116-5975e791648c",
+      "createdAt": "2026-04-02T13:13:06.322Z",
+      "updatedAt": "2026-04-02T13:13:06.322Z",
+      "name": "Dubbed Group",
+      "email": "dubbedgroup@gmail.com",
+      "password": "$2a$10$/eH9jz75T1U0I2RR3lulbey.R3cVzbG6B.hMyb0N9D9WTNZ3xn0o6"
+    },
+    {
+      "_id": "34bee357-59be-4d63-b4c6-7f3c16257f72",
+      "createdAt": "2026-04-02T13:15:06.690Z",
+      "updatedAt": "2026-04-02T13:15:06.690Z",
+      "name": "APS",
+      "email": "aps282@gmail.com",
+      "password": "$2a$10$iwnYFAax7IWkJxc7K5Bbo.9klfiniTJBM8r2azKsOuVDilgtFdYRO"
+    },
+    {
+      "_id": "c8a2606a-bae9-4530-9a1f-ca3263638822",
+      "createdAt": "2026-04-02T13:42:37.882Z",
+      "updatedAt": "2026-04-02T13:42:37.882Z",
+      "name": "praga",
+      "email": "boopathiboopathi@gmail.com",
+      "password": "$2a$10$EJrOc7sZTALVeDFkpz6IyO4QRQ218krxri9ilCFwSz1yE0XFaJaHO",
+      "authProvider": "local",
+      "googleId": "",
+      "avatar": ""
+    },
+    {
+      "_id": "9e2f2b9d-d320-4171-a41d-4b6a415c11bf",
+      "createdAt": "2026-04-02T14:21:26.819Z",
+      "updatedAt": "2026-04-02T15:00:02.240Z",
+      "name": "Praga This",
+      "email": "thispraga1@gmail.com",
+      "password": "",
+      "authProvider": "google",
+      "googleId": "101898855242754548526",
+      "avatar": "https://lh3.googleusercontent.com/a/ACg8ocIxnkSMNjyZN6vVMy-wNlwBySb5we4nirIwQXrcHFWDKuSATQ=s96-c",
+      "history": [
+        {
+          "videoId": "46b0a10b-8350-4c8c-ae6c-179377d3eb14",
+          "watchedAt": "2026-04-02T15:00:02.240Z"
+        }
+      ]
+    }
+  ],
+  "videos": [
+    {
+      "_id": "46b0a10b-8350-4c8c-ae6c-179377d3eb14",
+      "createdAt": "2026-04-02T14:21:48.724Z",
+      "updatedAt": "2026-04-02T15:00:02.222Z",
+      "title": "kva",
+      "description": "",
+      "category": "General",
+      "tags": [],
+      "owner": "9e2f2b9d-d320-4171-a41d-4b6a415c11bf",
+      "videoPath": "/videos/1775139708251-39867068-2026-03-03-03-59-25.mp4",
+      "thumbnailPath": "",
+      "mimeType": "video/mp4",
+      "size": 36819051,
+      "views": 6
+    }
+  ],
+  "playlists": [
+    {
+      "_id": "9c005523-421a-4886-b4d7-7a693b2aaa67",
+      "createdAt": "2026-04-02T15:00:53.759Z",
+      "updatedAt": "2026-04-02T15:00:53.759Z",
+      "name": "pjfa",
+      "description": "",
+      "owner": "9e2f2b9d-d320-4171-a41d-4b6a415c11bf",
+      "videos": []
+    }
+  ]
+}

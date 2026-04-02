@@ -1,0 +1,10 @@
+node_modules
+dist
+.env
+.DS_Store
+Thumbs.db
+server/storage/videos/*
+server/storage/thumbnails/*
+!server/storage/videos/.gitkeep
+!server/storage/thumbnails/.gitkeep
+

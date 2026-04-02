@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply border-white/10;
+  }
+
+  body {
+    @apply min-h-screen bg-ink text-white antialiased;
+  }
+
+  input,
+  textarea {
+    @apply w-full bg-transparent text-sm text-white placeholder:text-slate-500 focus:outline-none;
+  }
+
+  textarea {
+    @apply resize-none;
+  }
+}
+
+@layer components {
+  .glass-panel {
+    @apply rounded-[2rem] border border-white/10 bg-white/10 shadow-glow backdrop-blur-xl;
+  }
+
+  .glass-button {
+    @apply inline-flex items-center gap-2 rounded-full bg-white/10 px-5 py-3 text-sm font-semibold text-white transition hover:bg-white/20;
+  }
+
+  .field-shell {
+    @apply flex flex-col gap-2 rounded-[1.5rem] border border-white/10 bg-slate-950/35 px-4 py-3 text-sm text-slate-300;
+  }
+
+  .pill {
+    @apply inline-flex w-fit items-center rounded-full border border-white/10 bg-white/10 px-3 py-1 text-xs font-semibold uppercase tracking-[0.22em] text-slate-200;
+  }
+}
